@@ -1,3 +1,26 @@
+# instructions on how to set up
+1. for laravel 10 ensure environment setup with minimum php version 8.1
+2. ensure composer installed on your environment
+3. setup xampp or laragon and run apache
+4. install laravel to the specific www folder using this command composer "create-project laravel/laravel example-app"
+5. create a layout blade file
+6. use @yield directive for layout blade for dynamic component injection
+   
+#run this project
+1. run this project using " php artisan serve "
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
