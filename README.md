@@ -1,10 +1,10 @@
 # instructions on how to set up
 1. for laravel 10 ensure environment setup with minimum php version 8.1
 2. ensure composer installed on your environment
-3. setup xampp or laragon and run apache
-4. install laravel to the specific www folder using this command composer "create-project laravel/laravel example-app"
-5. create a layout blade file
-6. use @yield directive for layout blade for dynamic component injection
+3. install laravel to the specific www folder using this command composer "create-project laravel/laravel example-app"
+4. create a layout blade file
+5. use @yield directive for layout blade for dynamic component injection
+6. setup xampp or laragon and run apache
    
 #run this project
 1. run this project using " php artisan serve "
