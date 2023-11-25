@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */ 
 
-Route::get('/',[TestController::class,'index']);
+Route::get('/',[TestController::class,'index'])->name('/');
+Route::get('/about',[TestController::class,'about'])->name('about');
+Route::get('/projects',[TestController::class,'projects'])->name('projects');
+Route::get('/contact',[TestController::class,'contact'])->name('contact');
 
 
