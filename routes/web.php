@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */ 
 
-Route::get('/',[TestController::class,'index'])->name('/');
-Route::get('/about',[TestController::class,'about'])->name('about');
-Route::get('/projects',[TestController::class,'projects'])->name('projects');
-Route::get('/contact',[TestController::class,'contact'])->name('contact');
+Route::get('/',[HomeController::class,'index'])->name('/');
+Route::get('/about',[HomeController::class,'about'])->name('about');
+Route::get('/projects',[HomeController::class,'projects'])->name('projects');
+Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 
 
